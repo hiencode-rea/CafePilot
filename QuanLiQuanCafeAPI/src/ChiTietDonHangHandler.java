@@ -178,6 +178,8 @@ public class ChiTietDonHangHandler implements HttpHandler {
         String tenDangNhap = req.get("tenDangNhap").getAsString();
         int maSP = req.get("maSP").getAsInt();
         int soLuong = req.get("soLuong").getAsInt();
+        String ghiChu = req.has("ghiChu") && !req.get("ghiChu").isJsonNull()
+                ? req.get("ghiChu").getAsString() : null;
         int soNguoi = req.has("soNguoi") ? req.get("soNguoi").getAsInt() : 1;
 
         if (soLuong <= 0) {

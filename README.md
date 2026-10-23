@@ -35,6 +35,16 @@ The APK is generated under `app/build/outputs/apk/debug/` and is intentionally e
 4. Configure the API base URL in the clients for the host where the API is running.
 5. Use the IDE or the project's launch configuration to compile and start the API and desktop client with their required libraries.
 
+## API tests
+
+On Windows with a JDK installed, run the database-free API contract tests from the repository root:
+
+```powershell
+.\QuanLiQuanCafeAPI\run-tests.ps1
+```
+
+See [`QuanLiQuanCafeAPI/TEST_CASES.md`](QuanLiQuanCafeAPI/TEST_CASES.md) for covered cases and security/integration tests that still require an isolated test database and server-side authorization.
+
 Machine-specific settings, downloaded SDKs, build output, logs, and personal project documents are excluded from this repository.
 
 ## Google Play listing draft
