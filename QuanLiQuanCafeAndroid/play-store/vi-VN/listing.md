@@ -2,8 +2,8 @@
 
 > Nội dung đề xuất cho trang cửa hàng; chưa được xuất bản. Điều chỉnh theo thị trường triển khai và giới hạn tính năng thực tế trước khi gửi Play Console.
 
-## Tên ứng dụng (23/30 ký tự)
-Quản lý quán cà phê
+## Tên ứng dụng (19/30 ký tự)
+Quản lí quán cafe
 
 ## Mô tả ngắn (76/80 ký tự)
 Quản lý bàn, đơn hàng, bếp, pha chế và chấm công nhân viên trong quán cà phê.

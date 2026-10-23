@@ -1,4 +1,4 @@
-# Cafe Management System
+# Quản lí quán cafe
 
 A multi-client cafe operations system with an Android app, a Java desktop client, a Java HTTP API, and SQL Server database scripts.
 

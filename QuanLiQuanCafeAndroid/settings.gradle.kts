@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NLCSN2"
+rootProject.name = "QuanLiQuanCafe"
 include(":app")
