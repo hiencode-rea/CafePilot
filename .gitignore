@@ -1,0 +1,48 @@
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Build outputs, caches, and logs
+**/build/
+**/out/
+**/out_*/
+**/.gradle/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+**/*.log
+*.class
+
+# Local machine configuration and credentials
+**/local.properties
+**/.env
+**/.env.*
+!**/.env.example
+**/*.jks
+**/*.keystore
+**/*.pem
+**/*.p12
+
+# Downloaded SDKs and generated/local research artifacts
+/javafx-sdk/
+/javafx-extract/
+/_docx_extract/
+/_docx_hien_current/
+/__pycache__/
+/.agents/
+/.taste-skill-ref/
+/Launch/
+/LauncherBuild/bin/
+/LauncherBuild/obj/
+/LauncherBuild/
+
+# Personal reports and local datasets
+*.docx
+*.xlsx
+*.ipynb
+/giai_thuat_he_thong.txt
+/thiet_ke_csdls.txt
+/tao_test_case_excel.py

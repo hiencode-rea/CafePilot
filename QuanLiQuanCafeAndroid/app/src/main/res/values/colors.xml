@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFF3D7C5</color>
+    <color name="purple_500">#FF9A583B</color>
+    <color name="purple_700">#FF75432F</color>
+    <color name="teal_200">#FFB8CEC4</color>
+    <color name="teal_700">#FF3E6856</color>
+    <color name="black">#FF29231F</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="surface_page">#FFF7F4EF</color>
+    <color name="surface_card">#FFFFFFFF</color>
+    <color name="surface_input">#FFFFFCF8</color>
+    <color name="border_subtle">#FFE6DED5</color>
+    <color name="text_primary">#FF29231F</color>
+    <color name="text_secondary">#FF71665D</color>
+    <color name="status_success">#FF28734F</color>
+    <color name="status_success_surface">#FFE7F2EA</color>
+    <color name="status_danger">#FFB34238</color>
+    <color name="status_danger_surface">#FFF9E9E5</color>
+    <color name="status_warning">#FF986517</color>
+    <color name="status_warning_surface">#FFFAF0D9</color>
+</resources>

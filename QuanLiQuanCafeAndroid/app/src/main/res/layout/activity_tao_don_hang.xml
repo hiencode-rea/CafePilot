@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_page"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/lblTieuDe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10dp">
+
+        <Spinner
+            android:id="@+id/spSanPham"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_input"
+            android:popupBackground="@color/surface_card"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/edtSoLuong"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:inputType="number"
+            android:text="1"
+            android:gravity="center"
+            android:textColor="@color/text_primary"
+            android:padding="8dp"
+            android:layout_marginStart="8dp"/>
+
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"
+            android:text="Them"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gio hang (bam giu de xoa mon chua bao bep):"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp"/>
+
+    <ListView
+        android:id="@+id/dsGioHang"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_card"
+        android:divider="@color/border_subtle"
+        android:padding="8dp"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/btnThongBaoBep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THONG BAO BEP"
+        android:textStyle="bold"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/lblTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tong tien: 0 VND"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnLuuDon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LUU DON HANG"
+        android:textStyle="bold"
+        android:backgroundTint="@color/status_success"
+        android:textColor="@color/white" />
+
+</LinearLayout>
